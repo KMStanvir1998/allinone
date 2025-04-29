@@ -80,7 +80,7 @@
     padding: 0 16px;
 }
 .hero_image {
-    width: 380px;
+    width: 360px;
     height: auto;
     object-fit: cover;
 }
@@ -102,10 +102,10 @@
 }
 
 .blue_btn {
-    padding: 20px 24px;
+    padding: 10px 12px;
   }
   .white_btn {
-    padding: 20px 24px;
+    padding: 10px 12px;
 }
 /*Hero container section */
 
@@ -130,13 +130,14 @@
 }
 
 .hero_list_container{
-    bottom: -12%;
+    bottom: -23%;
 }
 
 .hero_list_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 10px 0;
+    width: 50%;
 }
 
 .hero_icon_text {
@@ -255,7 +256,7 @@
 }
 
 .expert_image {
-    width: 380px;
+    max-width: 360px;
 }
 
 .expert_part {
@@ -475,10 +476,16 @@ td{
 }
 .mobile_img {
     display: block;
+    width: 100%;
+}
+.reclaim_text {
+    font-size: 10px;
+    font-weight: 500;
+    color: #5E5E66;
 }
 .woman {
-    max-width: 360px;
-    transform: translateY(15%);
+    max-width: 216px;
+    transform: translateY(38%);
 }
 .reclaim_title {
     font-size: 24px;
@@ -513,7 +520,7 @@ td{
 }
 .reclaim_verify_section {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 5px;
 }
@@ -527,12 +534,13 @@ td{
 .reclaim_docs {
     max-width: 330px;
     padding-top: 0;
+    text-align: center;
 }
 .reclaim_btn {
     display: flex;
     gap: 12px;
-    justify-content: flex-end;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 24px;
     flex-direction: column;
 }
